@@ -7,23 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B5AD1A6F24BA1CD000B0BF1D /* FlagsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD1A5C24BA1CCE00B0BF1D /* FlagsApp.swift */; };
-		B5AD1A7024BA1CD000B0BF1D /* FlagsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD1A5C24BA1CCE00B0BF1D /* FlagsApp.swift */; };
-		B5AD1A7124BA1CD000B0BF1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD1A5D24BA1CCE00B0BF1D /* ContentView.swift */; };
-		B5AD1A7224BA1CD000B0BF1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD1A5D24BA1CCE00B0BF1D /* ContentView.swift */; };
+		B536A12924BAA1860032B2C4 /* MiscTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B536A12824BAA1860032B2C4 /* MiscTabView.swift */; };
+		B536A12A24BAA1860032B2C4 /* MiscTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B536A12824BAA1860032B2C4 /* MiscTabView.swift */; };
+		B570C3B124BDCBE40051BEA6 /* IPadContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B570C3B024BDCBE40051BEA6 /* IPadContentView.swift */; };
+		B570C3B224BDCBE40051BEA6 /* IPadContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B570C3B024BDCBE40051BEA6 /* IPadContentView.swift */; };
+		B570C3B424BDCEFF0051BEA6 /* airplanes.json in Resources */ = {isa = PBXBuildFile; fileRef = B570C3B324BDCEFF0051BEA6 /* airplanes.json */; };
+		B570C3B524BDCEFF0051BEA6 /* airplanes.json in Resources */ = {isa = PBXBuildFile; fileRef = B570C3B324BDCEFF0051BEA6 /* airplanes.json */; };
+		B570C3B724BDD0380051BEA6 /* PlaneOutline.swift in Sources */ = {isa = PBXBuildFile; fileRef = B570C3B624BDD0380051BEA6 /* PlaneOutline.swift */; };
+		B570C3B824BDD0380051BEA6 /* PlaneOutline.swift in Sources */ = {isa = PBXBuildFile; fileRef = B570C3B624BDD0380051BEA6 /* PlaneOutline.swift */; };
+		B5AD1A6F24BA1CD000B0BF1D /* SwiftUI2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD1A5C24BA1CCE00B0BF1D /* SwiftUI2App.swift */; };
+		B5AD1A7024BA1CD000B0BF1D /* SwiftUI2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD1A5C24BA1CCE00B0BF1D /* SwiftUI2App.swift */; };
+		B5AD1A7124BA1CD000B0BF1D /* IPhoneContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD1A5D24BA1CCE00B0BF1D /* IPhoneContentView.swift */; };
+		B5AD1A7224BA1CD000B0BF1D /* IPhoneContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD1A5D24BA1CCE00B0BF1D /* IPhoneContentView.swift */; };
 		B5AD1A7324BA1CD000B0BF1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5AD1A5E24BA1CD000B0BF1D /* Assets.xcassets */; };
 		B5AD1A7424BA1CD000B0BF1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5AD1A5E24BA1CD000B0BF1D /* Assets.xcassets */; };
+		B5AD1A7E24BA1CDE00B0BF1D /* flags.json in Resources */ = {isa = PBXBuildFile; fileRef = B5AD1A7D24BA1CDE00B0BF1D /* flags.json */; };
+		B5AD1A7F24BA1CDE00B0BF1D /* flags.json in Resources */ = {isa = PBXBuildFile; fileRef = B5AD1A7D24BA1CDE00B0BF1D /* flags.json */; };
+		B5AD1A8124BA1CF200B0BF1D /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD1A8024BA1CF200B0BF1D /* DataStore.swift */; };
+		B5AD1A8224BA1CF200B0BF1D /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD1A8024BA1CF200B0BF1D /* DataStore.swift */; };
+		B5AD1A8424BA1D9600B0BF1D /* VStackExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD1A8324BA1D9600B0BF1D /* VStackExample.swift */; };
+		B5AD1A8524BA1D9600B0BF1D /* VStackExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD1A8324BA1D9600B0BF1D /* VStackExample.swift */; };
+		B5AD1A8724BA26F400B0BF1D /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD1A8624BA26F400B0BF1D /* RowView.swift */; };
+		B5AD1A8824BA26F400B0BF1D /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD1A8624BA26F400B0BF1D /* RowView.swift */; };
+		B5AD1A8A24BA42D900B0BF1D /* GridExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD1A8924BA42D900B0BF1D /* GridExample.swift */; };
+		B5AD1A8B24BA42D900B0BF1D /* GridExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD1A8924BA42D900B0BF1D /* GridExample.swift */; };
+		B5AD1A8D24BA451900B0BF1D /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD1A8C24BA451900B0BF1D /* CellView.swift */; };
+		B5AD1A8E24BA451900B0BF1D /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD1A8C24BA451900B0BF1D /* CellView.swift */; };
+		B5AD1A9024BA60BD00B0BF1D /* emoji.json in Resources */ = {isa = PBXBuildFile; fileRef = B5AD1A8F24BA60BD00B0BF1D /* emoji.json */; };
+		B5AD1A9124BA60BD00B0BF1D /* emoji.json in Resources */ = {isa = PBXBuildFile; fileRef = B5AD1A8F24BA60BD00B0BF1D /* emoji.json */; };
+		B5BB44E624BE3AAF00B24269 /* WordCloudSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BB44E524BE3AAF00B24269 /* WordCloudSlide.swift */; };
+		B5BB44E724BE3AAF00B24269 /* WordCloudSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BB44E524BE3AAF00B24269 /* WordCloudSlide.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B5AD1A5C24BA1CCE00B0BF1D /* FlagsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagsApp.swift; sourceTree = "<group>"; };
-		B5AD1A5D24BA1CCE00B0BF1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B536A12824BAA1860032B2C4 /* MiscTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiscTabView.swift; sourceTree = "<group>"; };
+		B570C3B024BDCBE40051BEA6 /* IPadContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPadContentView.swift; sourceTree = "<group>"; };
+		B570C3B324BDCEFF0051BEA6 /* airplanes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = airplanes.json; sourceTree = "<group>"; };
+		B570C3B624BDD0380051BEA6 /* PlaneOutline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneOutline.swift; sourceTree = "<group>"; };
+		B5AD1A5C24BA1CCE00B0BF1D /* SwiftUI2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI2App.swift; sourceTree = "<group>"; };
+		B5AD1A5D24BA1CCE00B0BF1D /* IPhoneContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPhoneContentView.swift; sourceTree = "<group>"; };
 		B5AD1A5E24BA1CD000B0BF1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B5AD1A6324BA1CD000B0BF1D /* Flags.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flags.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5AD1A6324BA1CD000B0BF1D /* SwiftUI2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5AD1A6624BA1CD000B0BF1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B5AD1A6B24BA1CD000B0BF1D /* Flags.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flags.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5AD1A6B24BA1CD000B0BF1D /* SwiftUI2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5AD1A6D24BA1CD000B0BF1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5AD1A6E24BA1CD000B0BF1D /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		B5AD1A7D24BA1CDE00B0BF1D /* flags.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = flags.json; sourceTree = "<group>"; };
+		B5AD1A8024BA1CF200B0BF1D /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		B5AD1A8324BA1D9600B0BF1D /* VStackExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackExample.swift; sourceTree = "<group>"; };
+		B5AD1A8624BA26F400B0BF1D /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		B5AD1A8924BA42D900B0BF1D /* GridExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridExample.swift; sourceTree = "<group>"; };
+		B5AD1A8C24BA451900B0BF1D /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		B5AD1A8F24BA60BD00B0BF1D /* emoji.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = emoji.json; sourceTree = "<group>"; };
+		B5BB44E524BE3AAF00B24269 /* WordCloudSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordCloudSlide.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +93,20 @@
 		B5AD1A5B24BA1CCE00B0BF1D /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				B5AD1A5C24BA1CCE00B0BF1D /* FlagsApp.swift */,
-				B5AD1A5D24BA1CCE00B0BF1D /* ContentView.swift */,
+				B5AD1A5C24BA1CCE00B0BF1D /* SwiftUI2App.swift */,
+				B5AD1A5D24BA1CCE00B0BF1D /* IPhoneContentView.swift */,
+				B570C3B024BDCBE40051BEA6 /* IPadContentView.swift */,
+				B5AD1A8024BA1CF200B0BF1D /* DataStore.swift */,
+				B570C3B624BDD0380051BEA6 /* PlaneOutline.swift */,
+				B5BB44E524BE3AAF00B24269 /* WordCloudSlide.swift */,
+				B5AD1A8324BA1D9600B0BF1D /* VStackExample.swift */,
+				B5AD1A8924BA42D900B0BF1D /* GridExample.swift */,
+				B536A12824BAA1860032B2C4 /* MiscTabView.swift */,
+				B5AD1A8624BA26F400B0BF1D /* RowView.swift */,
+				B5AD1A8C24BA451900B0BF1D /* CellView.swift */,
+				B570C3B324BDCEFF0051BEA6 /* airplanes.json */,
+				B5AD1A7D24BA1CDE00B0BF1D /* flags.json */,
+				B5AD1A8F24BA60BD00B0BF1D /* emoji.json */,
 				B5AD1A5E24BA1CD000B0BF1D /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -67,8 +115,8 @@
 		B5AD1A6424BA1CD000B0BF1D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B5AD1A6324BA1CD000B0BF1D /* Flags.app */,
-				B5AD1A6B24BA1CD000B0BF1D /* Flags.app */,
+				B5AD1A6324BA1CD000B0BF1D /* SwiftUI2.app */,
+				B5AD1A6B24BA1CD000B0BF1D /* SwiftUI2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,9 +141,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B5AD1A6224BA1CD000B0BF1D /* Flags (iOS) */ = {
+		B5AD1A6224BA1CD000B0BF1D /* SwiftUI2 (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B5AD1A7724BA1CD000B0BF1D /* Build configuration list for PBXNativeTarget "Flags (iOS)" */;
+			buildConfigurationList = B5AD1A7724BA1CD000B0BF1D /* Build configuration list for PBXNativeTarget "SwiftUI2 (iOS)" */;
 			buildPhases = (
 				B5AD1A5F24BA1CD000B0BF1D /* Sources */,
 				B5AD1A6024BA1CD000B0BF1D /* Frameworks */,
@@ -105,14 +153,14 @@
 			);
 			dependencies = (
 			);
-			name = "Flags (iOS)";
+			name = "SwiftUI2 (iOS)";
 			productName = "Flags (iOS)";
-			productReference = B5AD1A6324BA1CD000B0BF1D /* Flags.app */;
+			productReference = B5AD1A6324BA1CD000B0BF1D /* SwiftUI2.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B5AD1A6A24BA1CD000B0BF1D /* Flags (macOS) */ = {
+		B5AD1A6A24BA1CD000B0BF1D /* SwiftUI2 (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B5AD1A7A24BA1CD000B0BF1D /* Build configuration list for PBXNativeTarget "Flags (macOS)" */;
+			buildConfigurationList = B5AD1A7A24BA1CD000B0BF1D /* Build configuration list for PBXNativeTarget "SwiftUI2 (macOS)" */;
 			buildPhases = (
 				B5AD1A6724BA1CD000B0BF1D /* Sources */,
 				B5AD1A6824BA1CD000B0BF1D /* Frameworks */,
@@ -122,9 +170,9 @@
 			);
 			dependencies = (
 			);
-			name = "Flags (macOS)";
+			name = "SwiftUI2 (macOS)";
 			productName = "Flags (macOS)";
-			productReference = B5AD1A6B24BA1CD000B0BF1D /* Flags.app */;
+			productReference = B5AD1A6B24BA1CD000B0BF1D /* SwiftUI2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -144,7 +192,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B5AD1A5A24BA1CCE00B0BF1D /* Build configuration list for PBXProject "Flags" */;
+			buildConfigurationList = B5AD1A5A24BA1CCE00B0BF1D /* Build configuration list for PBXProject "SwiftUI2" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -157,8 +205,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B5AD1A6224BA1CD000B0BF1D /* Flags (iOS) */,
-				B5AD1A6A24BA1CD000B0BF1D /* Flags (macOS) */,
+				B5AD1A6224BA1CD000B0BF1D /* SwiftUI2 (iOS) */,
+				B5AD1A6A24BA1CD000B0BF1D /* SwiftUI2 (macOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -169,6 +217,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5AD1A7324BA1CD000B0BF1D /* Assets.xcassets in Resources */,
+				B570C3B424BDCEFF0051BEA6 /* airplanes.json in Resources */,
+				B5AD1A9024BA60BD00B0BF1D /* emoji.json in Resources */,
+				B5AD1A7E24BA1CDE00B0BF1D /* flags.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +228,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5AD1A7424BA1CD000B0BF1D /* Assets.xcassets in Resources */,
+				B570C3B524BDCEFF0051BEA6 /* airplanes.json in Resources */,
+				B5AD1A9124BA60BD00B0BF1D /* emoji.json in Resources */,
+				B5AD1A7F24BA1CDE00B0BF1D /* flags.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,8 +241,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5AD1A7124BA1CD000B0BF1D /* ContentView.swift in Sources */,
-				B5AD1A6F24BA1CD000B0BF1D /* FlagsApp.swift in Sources */,
+				B5AD1A8A24BA42D900B0BF1D /* GridExample.swift in Sources */,
+				B536A12924BAA1860032B2C4 /* MiscTabView.swift in Sources */,
+				B5AD1A8724BA26F400B0BF1D /* RowView.swift in Sources */,
+				B5AD1A7124BA1CD000B0BF1D /* IPhoneContentView.swift in Sources */,
+				B5AD1A8124BA1CF200B0BF1D /* DataStore.swift in Sources */,
+				B570C3B724BDD0380051BEA6 /* PlaneOutline.swift in Sources */,
+				B5BB44E624BE3AAF00B24269 /* WordCloudSlide.swift in Sources */,
+				B5AD1A8424BA1D9600B0BF1D /* VStackExample.swift in Sources */,
+				B5AD1A8D24BA451900B0BF1D /* CellView.swift in Sources */,
+				B5AD1A6F24BA1CD000B0BF1D /* SwiftUI2App.swift in Sources */,
+				B570C3B124BDCBE40051BEA6 /* IPadContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,8 +259,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5AD1A7224BA1CD000B0BF1D /* ContentView.swift in Sources */,
-				B5AD1A7024BA1CD000B0BF1D /* FlagsApp.swift in Sources */,
+				B5AD1A8B24BA42D900B0BF1D /* GridExample.swift in Sources */,
+				B536A12A24BAA1860032B2C4 /* MiscTabView.swift in Sources */,
+				B5AD1A8824BA26F400B0BF1D /* RowView.swift in Sources */,
+				B5AD1A7224BA1CD000B0BF1D /* IPhoneContentView.swift in Sources */,
+				B5AD1A8224BA1CF200B0BF1D /* DataStore.swift in Sources */,
+				B570C3B824BDD0380051BEA6 /* PlaneOutline.swift in Sources */,
+				B5BB44E724BE3AAF00B24269 /* WordCloudSlide.swift in Sources */,
+				B5AD1A8524BA1D9600B0BF1D /* VStackExample.swift in Sources */,
+				B5AD1A8E24BA451900B0BF1D /* CellView.swift in Sources */,
+				B5AD1A7024BA1CD000B0BF1D /* SwiftUI2App.swift in Sources */,
+				B570C3B224BDCBE40051BEA6 /* IPadContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,8 +401,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.standalone.Flags;
-				PRODUCT_NAME = Flags;
+				PRODUCT_BUNDLE_IDENTIFIER = com.standalone.swiftUI2;
+				PRODUCT_NAME = SwiftUI2;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -351,8 +423,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.standalone.Flags;
-				PRODUCT_NAME = Flags;
+				PRODUCT_BUNDLE_IDENTIFIER = com.standalone.swiftUI2;
+				PRODUCT_NAME = SwiftUI2;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -377,8 +449,8 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.16;
-				PRODUCT_BUNDLE_IDENTIFIER = com.standalone.Flags;
-				PRODUCT_NAME = Flags;
+				PRODUCT_BUNDLE_IDENTIFIER = com.standalone.swiftUI2;
+				PRODUCT_NAME = SwiftUI2;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
@@ -401,8 +473,8 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.16;
-				PRODUCT_BUNDLE_IDENTIFIER = com.standalone.Flags;
-				PRODUCT_NAME = Flags;
+				PRODUCT_BUNDLE_IDENTIFIER = com.standalone.swiftUI2;
+				PRODUCT_NAME = SwiftUI2;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
@@ -411,7 +483,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B5AD1A5A24BA1CCE00B0BF1D /* Build configuration list for PBXProject "Flags" */ = {
+		B5AD1A5A24BA1CCE00B0BF1D /* Build configuration list for PBXProject "SwiftUI2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B5AD1A7524BA1CD000B0BF1D /* Debug */,
@@ -420,7 +492,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B5AD1A7724BA1CD000B0BF1D /* Build configuration list for PBXNativeTarget "Flags (iOS)" */ = {
+		B5AD1A7724BA1CD000B0BF1D /* Build configuration list for PBXNativeTarget "SwiftUI2 (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B5AD1A7824BA1CD000B0BF1D /* Debug */,
@@ -429,7 +501,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B5AD1A7A24BA1CD000B0BF1D /* Build configuration list for PBXNativeTarget "Flags (macOS)" */ = {
+		B5AD1A7A24BA1CD000B0BF1D /* Build configuration list for PBXNativeTarget "SwiftUI2 (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B5AD1A7B24BA1CD000B0BF1D /* Debug */,
